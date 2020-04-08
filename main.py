@@ -67,7 +67,7 @@ def statMenu(message):
     elif message.text == 'Рекомендации':
         bot.send_message(message.chat.id,
                          "Отлично!\n"
-                         "Я очень рад, что вам не безразлична безопасность вас и окружающих\n\n",
+                         "Я очень рад, что Вам не безразлична безопасность вас и окружающих\n\n",
                          parse_mode='html')
         time.sleep(1.5)
         bot.send_message(message.chat.id,
@@ -93,7 +93,7 @@ def statMenu(message):
                          '2)Антисептик должен содержать спирт концентрации <b>не менее 60%</b> '
                          'Водка <b>не подойдет</b>',
                          parse_mode='html')
-        #        time.sleep(11.5)
+        time.sleep(11.5)
         # второй совет
         bot.send_message(message.chat.id,
                          "<b>Во вторых</b>\n\n"
@@ -110,7 +110,7 @@ def statMenu(message):
                          "Если при кашле или чихании прикрывать нос и рот ладонью, микробы могут попасть на ваши руки, "
                          "а затем на предметы или на людей, к которым вы прикасаетесь.",
                          parse_mode='html')
-        #        time.sleep(15)
+        time.sleep(15)
         bot.send_message(message.chat.id,
                          "Фух, ну вроде все основное рассказал\n\n")
         time.sleep(1.5)
