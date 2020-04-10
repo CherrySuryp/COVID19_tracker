@@ -207,9 +207,6 @@ def statMenu(message):
                          '<a href="www.google.com">бесплатный онлайн вебинар</a> '
                          'по выходу из кризиса и достижения финансовой независимости',
                          parse_mode='html', reply_markup=url)
-print()
-print()
-print()
 
 
 #    elif message.text == 'Информация по странам':
